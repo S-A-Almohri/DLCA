@@ -3,5 +3,5 @@ This is a project for the DLCA process of different particle shapes. The sphere 
 
 ## Sphere Video
 <p align="center">
-  <img src="/Sphere_Videos/4400itr.gif" width="500">
+  <img src="/Sphere/Videos/4400itr.gif" width="500">
 </p>
