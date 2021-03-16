@@ -132,7 +132,7 @@ while  NLE == 1 && itr < ITR % &&  testing the termination condition Rg/4
         PAR_CMax = max(nonzeros(PAR_C'),[],'all');
         mobility = PAR_CMin./PAR_C'; % probability of movement is minimum number of particels over number of particles in the selected cluster
         VEL = mobility .* VEL; % probability of displacement
-        [PAR,Movement,VEL] = Move_Rg(VEL,PAR,N,StepSize,MAX,MIN); % function made to move the particle around
+        [PARout,PAR_Rgout,Movement,VELout] = Move_Rg(VEL,PAR,PAR_Rg,N,StepSize,MAX,MIN); % function made to move the particle around
         PAR3{itr} = PAR; % keeping data from each iteration
         PAR_Rg3{itr} = PAR_Rg;
         mobility3{itr} = mobility;
